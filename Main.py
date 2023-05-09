@@ -15,6 +15,10 @@ def div_func(n1, n2):
     result = n1 / n2
     return result
 
+def squ_func(n1):
+    result = n1 ** 2
+    return result
+
 ## 전역변수
 num1, num2, res = 100, 200, 0
 
@@ -30,3 +34,6 @@ print(num1, '*', num2, '=', res)
 
 res = div_func(num1, num2)
 print(num1, '/', num2, '=', res)
+
+res = squ_func(num1)
+print(num1, '^', '2', '=', res)
